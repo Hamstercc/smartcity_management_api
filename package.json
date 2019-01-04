@@ -1,0 +1,26 @@
+{
+  "name": "smartcity_management_api",
+  "version": "1.0.0",
+  "description": "this application was made aiming to help rt / rw to manage citizens and their administration. this application is free and free to use by any rt / rw with terms and conditions in force",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamstercc/smartcity_management_api.git"
+  },
+  "keywords": [
+    "rt",
+    "rw",
+    "management",
+    "smart",
+    "city"
+  ],
+  "author": "QuanGhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamstercc/smartcity_management_api/issues"
+  },
+  "homepage": "https://github.com/Hamstercc/smartcity_management_api#readme"
+}

@@ -4,7 +4,13 @@ const RoleSchema = mongoose.Schema({
     name : {
         type : String,
         lowercase : true,
-        required : [true, 'Name is required']
+        validate : {
+            validator: (v) => {
+                return /^[a-zA-Z\s]+$/.test(v)
+            },
+            message : () => 'Only String Accepted'
+        },
+        required : [true, 'Name is required'],
     }
 }, {
     timestamps : true
